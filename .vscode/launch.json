@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Echo API",
+            "type": "docker",
+            "request": "attach",
+            "platform": "netCore",
+            "containerName": "echoapp-echo-api-1",
+            "sourceFileMap": {
+                "/src/echo-api": "${workspaceFolder}/src/EchoApp/echo-api"
+            }
+        }
+    ]
+}

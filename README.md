@@ -40,7 +40,7 @@ To perform the labs on this repo you need to have the following software install
 2. Docker. [How to install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 3. Minikube. [How to install Minikube on Ubuntu](https://www.linuxtechi.com/how-to-install-minikube-on-ubuntu/)
 4. Kubectl. [How to install Kubectl on Ubuntu](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
-5. Install [Visual Studio Code](https://code.visualstudio.com/) (or other code editor of your preference)
+5. Install [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux) (or other code editor of your preference)
 6. (Optional) Some VS Code extension helpful for Docker and Kubernetes integration
 
     - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
@@ -49,6 +49,19 @@ To perform the labs on this repo you need to have the following software install
     - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 This setup works on top of [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install).
+
+### macOS
+
+1. Docker. [Install Docker Desktop on Mac](https://docs.docker.com/desktop/install/mac-install/)
+2. Minikube. [How to install Minikube on macOS](https://minikube.sigs.k8s.io/docs/start/)
+3. Kubectl. [How to install Kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
+4. Install [Visual Studio Code](https://code.visualstudio.com/docs/setup/mac) (or other code editor of your preference)
+5. (Optional) Some VS Code extension helpful for Docker and Kubernetes integration
+
+    - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+    - [Docker compose](https://marketplace.visualstudio.com/items?itemName=p1c2u.docker-compose)
+    - [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+    - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ## Labs
 
@@ -70,8 +83,8 @@ You may navigate for each one individually or you may follow the sequence starti
 
 With this simple ToDo App you have the hands-on experience to create all needed artifacts to deploy an app on Kubernetes.
 
-Step #1 [Create images and run using docker compose](project/step01.md)
-Step #2 [Create Kubernetes manifests and run on your cluster](project/step02.md)
+- Step #1 [Create images and run using docker compose](project/step01.md)
+- Step #2 [Create Kubernetes manifests and run on your cluster](project/step02.md)
 
 ## Slides
 

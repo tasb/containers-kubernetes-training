@@ -2,7 +2,7 @@
 
 On this repo you can find 10 different labs that allow you to gradually have an hands-on experience on containers (using Docker) and local Kubernetes cluster.
 
-Navigate to <https://tasb.github.io/docker-kubernetes-training/> to have access a better version of these instructions.
+Navigate to <https://theonorg.github.io/containers-kubernetes-training/> to have access a better version of these instructions.
 
 ## On this page
 
@@ -10,6 +10,7 @@ Navigate to <https://tasb.github.io/docker-kubernetes-training/> to have access 
   - [Windows](#windows)
   - [Ubuntu](#ubuntu)
 - [Labs](README.md#labs)
+- [ToDo App project](README.md#todo-app-project)
 - [Slides](README.md#slides)
 - [Feedback](README.md#feedback)
 
@@ -64,7 +65,13 @@ You may navigate for each one individually or you may follow the sequence starti
 7. [Managing services](labs/lab07.md)
 8. [Storage in Kubernetes](labs/lab08.md)
 9. [Monitoring and Operation](labs/lab09.md)
-10. [Connect all the dots](labs/lab10.md)
+
+## ToDo App project
+
+With this simple ToDo App you have the hands-on experience to create all needed artifacts to deploy an app on Kubernetes.
+
+Step #1 [Create images and run using docker compose](project/step01.md)
+Step #2 [Create Kubernetes manifests and run on your cluster](project/step02.md)
 
 ## Slides
 

@@ -9,6 +9,7 @@ Navigate to <https://theonorg.github.io/containers-kubernetes-training/> to have
 - [Prerequisites](README.md#prerequisites)
   - [Windows](#windows)
   - [Ubuntu](#ubuntu)
+  - [macOS](#macos)
 - [Labs](README.md#labs)
 - [ToDo App project](README.md#todo-app-project)
 - [Slides](README.md#slides)

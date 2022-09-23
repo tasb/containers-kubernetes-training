@@ -40,9 +40,9 @@ apt-get install -y curl procps
 
 curl localhost
 
-kubectl port-forward nginx-pod 8080:80
+kubectl port-forward nginx-pod 8080:80 (--address='0.0.0.0')
 
-kubectl port-forward redis-nginx 8080:80
+kubectl port-forward redis-nginx 8080:80 (--address='0.0.0.0')
 
 ==============================================================
 

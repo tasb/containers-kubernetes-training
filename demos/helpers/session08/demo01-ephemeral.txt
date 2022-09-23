@@ -4,7 +4,7 @@ kubectl get pods
 
 kubectl exec -it ephemeral-dep-c944bc95c-jqvmf -c nginx -- bash
 
-nginx> ls /share
+nginx> cd /share
 nginx> echo "some text to a file" > file.txt
 nginx> ./somefile file.txt
 
@@ -12,12 +12,16 @@ kubectl exec -it ephemeral-dep-c944bc95c-jqvmf -c redis -- bash
 
 redis> cd /share/
 redis> hostname > file.txt
+redis> echo "<html><body><h1>Ephemeral</h1></body></html>" > index.html
 
 nginx> cd /usr/share/nginx/html/
 nginx> ls
+nginx> cat index.html
 nginx> cat file.txt
 nginx> hostname >> file.txt
 
 redis> cat file.txt
+
+kubectl port-forward pod/ephemeral-dep-xxxx 9000:80 --address="0.0.0.0"
 
 kubectl delete deploy ephemeral-dep

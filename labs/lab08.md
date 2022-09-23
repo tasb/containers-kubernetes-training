@@ -13,7 +13,7 @@ On this lab you'll use Persistent Volumes, ConfigMaps and Secret for a full conf
 
 ## Prepare your cluster
 
-**You should follow this step if you didn't finish [previous lab](/lab07.md) or cleared your cluster after that.**
+**You should follow this step if you didn't finish [previous lab](lab07.md) or cleared your cluster after that.**
 
 Then create your first ingress, you need to install an ingress controller on your cluster.
 

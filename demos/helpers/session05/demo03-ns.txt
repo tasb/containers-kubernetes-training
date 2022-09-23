@@ -26,4 +26,6 @@ kubectl delete ns new-ns
 
 kubectl delete ns my-ns
 
+kubectl delete --all pods --namespace=default
+
 
